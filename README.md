@@ -1,11 +1,17 @@
+| Ubuntu            | Windows Powershell                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| ![ubuntu-shot](https://github.com/Code-kumar/dotfiles/blob/430d1201309202cf058c968570af91b0c460f598/Images/ubuntu-shot.png) | ![PowerShell-shot](https://github.com/Code-kumar/dotfiles/blob/430d1201309202cf058c968570af91b0c460f598/Images/PowerShell-shot.png) |
+
+https://user-images.githubusercontent.com/49843571/195361989-bd511867-43bf-4304-b2cf-189ad8cf80fd.mp4
+
 # Naveen's 'Dotfiles'
 **Warning**: Don’t blindly use my settings unless you know what that entails. Use at your own risk!
 
 Hi, there! 👋
 
-In this Repo you'll find my personal **Dotfiles** I use for configs, customization and themes for both my WSL and Windows environment.
+In this Repo, you'll find my personal **Dotfiles** I use for configs, customization, and themes for both my WSL and Windows environment.
 
-> If you want the same configuration and theme for your both WSL & Terminal simontensly then follow the below steps: 
+> If you want the same configuration and theme for your both WSL & Terminal simultaneously then follow the below steps: 
 
 
 ## Steps:
@@ -65,7 +71,7 @@ Yay!!!! almost there...
   $ENV:STARSHIP_CONFIG = "C:\Users\username\.config\starship.toml"
 ```
 - Please make sure you're using the correct path for $ENV:STARSHIP_CONFIG 
-- the **starship.toml** file you can find my [Theme](https://github.com/Code-kumar/dotfiles/tree/master/Theme%20file) foler.
+- the **starship.toml** file you can find my [Theme](https://github.com/Code-kumar/dotfiles/tree/master/Theme%20file) folder.
 - or you can create your own theme using [starship config](https://starship.rs/config/).
 
 
@@ -99,11 +105,11 @@ In the same PowerShell directory you can install your Modules:
 ```
     ~/.local/share/fonts/
 ```
-As we're using **Hack NF** font just copy & paste the font file from [Shell fonts](https://github.com/Code-kumar/dotfiles/tree/master/Shell%20fonts) folder to above mentioned directory, Make sure all the font file should be in **.OTF** file format.
+As we're using **Hack NF** font just copy & paste the font file from [Shell fonts](https://github.com/Code-kumar/dotfiles/tree/master/Shell%20fonts) folder to above mentioned directory, Make sure all the font files should be in **.OTF** file format.
 ## 2. Setup WSL (Windows Subsystem for Linux) 
 
 [Install Linux on Windows with WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
-<br /> (Follow the steps in the guide and setup your Distro like I'm using Ubuntu).
+<br /> (Follow the steps in the guide and set up your Distro like I'm using Ubuntu).
 
 - **Copy & paste** the files from [Bash files for WSL](https://github.com/Code-kumar/dotfiles/tree/master/Bash%20files%20for%20WSL)
 - **To**: Linux/ubuntu/home/(username)
@@ -115,7 +121,7 @@ As we're using **Hack NF** font just copy & paste the font file from [Shell font
 ```
     curl -sS https://starship.rs/install.sh | sh
 ```
-- Make sure your **starship.toml** should be in your .config root folder if don't have create one, also you can find the starship.toml in my [Theme](https://github.com/Code-kumar/dotfiles/tree/master/Theme%20file) foler 
+- Make sure your **starship.toml** should be in your .config root folder if don't have that folder create one, also you can find the starship.toml in my [Theme](https://github.com/Code-kumar/dotfiles/tree/master/Theme%20file) folder 
 
 (I used [Starship](https://starship.rs/) to sync one theme file for both WSL shell and Windows Prompt).
 

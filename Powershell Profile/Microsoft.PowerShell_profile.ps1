@@ -6,7 +6,7 @@ Set-PSReadLineOption -BellStyle None
 Set-PSReadLineKeyHandler -Chord 'Ctrl+d' -Function DeleteChar
 Set-PSReadLineOption -PredictionSource History
 
-# STARTSHIP CODE IMPORTANT!!!!!!!!!!!!!!!!!
+# Config Starship theme file
 $ENV:STARSHIP_CONFIG = "C:\Users\Naveen\.config\starship.toml"
 
 New-Alias k kubectl
