@@ -72,12 +72,12 @@ Yay!!!! almost there...
 
 ### Modules: 
 In the same PowerShell directory you can install your Modules:
--  Terminal Icons
+-  **Terminal Icons**
 ```bash
   Install-Module -Name Terminal-Icons -Repository PSGallery -Force
   Import-Module terminal-Icons
 ```
--  PSReadLine
+-  **PSReadLine**
 ```bash
   Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
   Set-PSReadLineOption -PredictionSource History
@@ -99,7 +99,7 @@ In the same PowerShell directory you can install your Modules:
 ```
     ~/.local/share/fonts/
 ```
-As we're using **Hack NF** font just copy & paste the font file from [Shell fonts]() folder to above mentioned directory, Make sure all the font file should be in **.OTF** file format.
+As we're using **Hack NF** font just copy & paste the font file from [Shell fonts](https://github.com/Code-kumar/dotfiles/tree/master/Shell%20fonts) folder to above mentioned directory, Make sure all the font file should be in **.OTF** file format.
 ## 2. Setup WSL (Windows Subsystem for Linux) 
 
 [Install Linux on Windows with WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
@@ -127,5 +127,3 @@ As we're using **Hack NF** font just copy & paste the font file from [Shell font
 
  
 ## 🥳 Congrats!! you've finally made it.  
-
-
