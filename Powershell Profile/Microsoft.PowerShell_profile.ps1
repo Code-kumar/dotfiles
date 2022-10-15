@@ -1,3 +1,30 @@
+# oh-my-posh init pwsh --config ~\home\nkdesigndev.omp.json| Invoke-Expression
+# # oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/jandedobbeleer.omp.json' | Invoke-Expression
+# New-Alias -Name nkc -Value 'C:'
+function nkc { Set-Location "c:\"  && Get-ChildItem}
+function nkf { Set-Location "f:\" && Get-ChildItem}
+function nke { Set-Location "e:\" && Get-ChildItem}
+function nkd { Set-Location "d:\" && Get-ChildItem}
+function desk { Set-Location "c:\users\naveen\desktop" && Get-ChildItem}
+function desktop { Set-Location "c:\users\naveen\desktop" && Get-ChildItem}
+function nk { Set-Location "c:\users\naveen" && Get-ChildItem}
+function back { Set-Location ".." }
+# New-Alias -Name nkc -Value 'cd c:\'
+# New-Alias -Name nkd -Value 'cd /d && ls'
+# New-Alias -Name nke -Value 'cd /e && ls'
+# New-Alias -Name nkf -Value 'cd /f && ls'
+# New-Alias -Name nk -Value 'cd /c/users/naveen && ls'
+# # Prompt
+# Import-Module posh-git
+
+# # Import-Module oh-my-posh
+# # Set-PoshPrompt nkdesigndev
+
+# # Load prompt config
+# Import-Module posh-git
+# $omp_config = Join-Path $PSScriptRoot ".\nkdesigndev.omp.json"
+# oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
+
 Import-Module -Name Terminal-Icons
 
 # # PSReadLine
@@ -6,7 +33,7 @@ Set-PSReadLineOption -BellStyle None
 Set-PSReadLineKeyHandler -Chord 'Ctrl+d' -Function DeleteChar
 Set-PSReadLineOption -PredictionSource History
 
-# Config Starship theme file
+# STARTSHIP CODE IMPORTANT!!!!!!!!!!!!!!!!!
 $ENV:STARSHIP_CONFIG = "C:\Users\Naveen\.config\starship.toml"
 
 New-Alias k kubectl
