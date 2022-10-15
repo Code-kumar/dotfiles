@@ -1,6 +1,5 @@
 # oh-my-posh init pwsh --config ~\home\nkdesigndev.omp.json| Invoke-Expression
 # # oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/jandedobbeleer.omp.json' | Invoke-Expression
-# New-Alias -Name nkc -Value 'C:'
 function nkc { Set-Location "c:\"  && Get-ChildItem}
 function nkf { Set-Location "f:\" && Get-ChildItem}
 function nke { Set-Location "e:\" && Get-ChildItem}
@@ -9,11 +8,7 @@ function desk { Set-Location "c:\users\naveen\desktop" && Get-ChildItem}
 function desktop { Set-Location "c:\users\naveen\desktop" && Get-ChildItem}
 function nk { Set-Location "c:\users\naveen" && Get-ChildItem}
 function back { Set-Location ".." }
-# New-Alias -Name nkc -Value 'cd c:\'
-# New-Alias -Name nkd -Value 'cd /d && ls'
-# New-Alias -Name nke -Value 'cd /e && ls'
-# New-Alias -Name nkf -Value 'cd /f && ls'
-# New-Alias -Name nk -Value 'cd /c/users/naveen && ls'
+
 # # Prompt
 # Import-Module posh-git
 
